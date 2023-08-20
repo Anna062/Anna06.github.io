@@ -1,0 +1,14 @@
+
+.blog-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-resume p, .blog-resume h2 {
+    text-align: center;
+}
+.articles {
+    margin-bottom: 70px;
+}

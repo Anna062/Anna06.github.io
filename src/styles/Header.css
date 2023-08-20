@@ -1,0 +1,15 @@
+
+img {
+    width: 100%;
+}
+.header {
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 80px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

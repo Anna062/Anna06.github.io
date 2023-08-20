@@ -1,0 +1,40 @@
+/* Styles de base */
+.blog {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#blog-img {
+    max-width: 800px;
+}
+
+.articles {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+    gap: 10px; /* Espacement entre les éléments */
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-around;
+}
+
+/* Media queries pour la mise en page responsive */
+@media (max-width: 1200px) {
+    .articles {
+        grid-template-columns: repeat(2, 1fr); /* Deux colonnes pour les écrans moyens */
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

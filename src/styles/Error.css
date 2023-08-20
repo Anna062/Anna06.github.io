@@ -1,0 +1,16 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.error h2 {
+    font-size: 6em;
+    color: #3B5998;
+}
+.error p {
+    font-size: 20px;
+}

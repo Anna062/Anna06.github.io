@@ -1,0 +1,14 @@
+
+.citations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 21px;
+    color: #3B5998;
+}
