@@ -1,7 +1,5 @@
 import React from "react";
 import '../styles/Banner.css';
-import facebook from "../assets/facebook.png";
-import instagram from "../assets/instagram.png"
 import logo from '../assets/logo.png'
 
 const Banner = () => {
