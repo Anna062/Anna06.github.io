@@ -12,10 +12,6 @@ const Banner = () => {
                 <h1>Code Verse</h1>
             </div>
             <p> Libérez la Créativité à travers le Code : Bienvenue dans CodeVerse</p>
-            <div className="social-medias">
-                <a href="https://facebook.com"><img src={facebook} alt="facebook" /></a>
-                <a href="https://instagram.com"><img src={instagram} alt="instagram" /></a>
-            </div>
         </div>
         <hr/>
         <ul>
