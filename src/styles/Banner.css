@@ -88,8 +88,16 @@ form button:hover {
     cursor: pointer;
 
 }
-nav div h1 {
+nav div div h1 {
     color: #3B5998;
+}
+nav div p {
+  font-size: 19px;
+}
+#logo {
+  width: 45px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 .social-medias {
     display: flex;

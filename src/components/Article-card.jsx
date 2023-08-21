@@ -18,7 +18,7 @@ const ArticleCard = () => {
         .catch(err => {
             console.log(err)
         })
-    }, [])
+    }, [id])
 
     return <div className='article-card'>
         <img src={image} alt='light' id='light' />
