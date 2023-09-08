@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Blog-list.css';
 import ArticleResume from "./Article-resume";
 import { Data } from "../data";
-
+import { Link } from "react-router-dom";
 
 const BlogList = () => {
       
@@ -18,7 +18,7 @@ const BlogList = () => {
 ))}
 
       </div>
-      <p><a href="/blog">Visiter le blog</a></p>
+      <p><Link to="/blog">Visiter le blog</Link></p>
     </div>
   );
 };

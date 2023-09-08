@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/Banner.css';
 import logo from '../assets/logo.png'
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return <nav>
@@ -13,9 +14,9 @@ const Banner = () => {
         </div>
         <hr/>
         <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href='/about'>A propos</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><Link to="/">Accueil</Link></li>
+            <li><Link to='/about'>A propos</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
         </ul>
     </nav>
 }

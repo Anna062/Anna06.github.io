@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9801c951.css",
+    "main.js": "/static/js/main.45238778.js",
+    "static/js/787.a361b86b.chunk.js": "/static/js/787.a361b86b.chunk.js",
+    "static/media/blog-2355684_1280.jpg": "/static/media/blog-2355684_1280.bc4a0c76a91e73c1852e.jpg",
+    "static/media/technology-g4d4db398f_1280.jpg": "/static/media/technology-g4d4db398f_1280.8cd20fc81d5fd670386c.jpg",
+    "static/media/logo.png": "/static/media/logo.35368c747c33a1c1208e.png",
+    "index.html": "/index.html",
+    "main.9801c951.css.map": "/static/css/main.9801c951.css.map",
+    "main.45238778.js.map": "/static/js/main.45238778.js.map",
+    "787.a361b86b.chunk.js.map": "/static/js/787.a361b86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9801c951.css",
+    "static/js/main.45238778.js"
+  ]
+}
